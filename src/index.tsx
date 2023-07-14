@@ -1,15 +1,25 @@
 import React from 'react';
-import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { Provider } from 'react-redux';
+import { PersistGate } from 'redux-persist/integration/react';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
+import { store, persistor } from './store';
+import { Provider as PaperProvider } from 'react-native-paper';
+import { ThemeProvider } from 'styled-components';
+import { appTheme } from '@src/theme';
 import App from './App';
-import store from './store';
 
 const Index = () => {
   return (
     <Provider store={store}>
-      <SafeAreaProvider>
-        <App />
-      </SafeAreaProvider>
+      <PersistGate loading={null} persistor={persistor}>
+        <PaperProvider theme={appTheme}>
+          <ThemeProvider theme={appTheme}>
+            <SafeAreaProvider>
+              <App />
+            </SafeAreaProvider>
+          </ThemeProvider>
+        </PaperProvider>
+      </PersistGate>
     </Provider>
   );
 };

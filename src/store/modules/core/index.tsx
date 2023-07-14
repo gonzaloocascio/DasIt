@@ -3,7 +3,6 @@ import { coreState } from './types';
 
 const initialState: coreState = {
   splash: true,
-  isLogged: false,
 };
 
 const coreReducer = createSlice({
@@ -13,11 +12,8 @@ const coreReducer = createSlice({
     setSplash: (state, action) => {
       state.splash = action.payload;
     },
-    setIsLogged: (state, action) => {
-      state.isLogged = action.payload;
-    },
   },
 });
 
-export const { setSplash, setIsLogged } = coreReducer.actions;
+export const { setSplash } = coreReducer.actions;
 export default coreReducer.reducer;

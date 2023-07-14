@@ -1,36 +1,27 @@
 import * as React from 'react';
-// import { NavigationContainer, DefaultTheme } from '@react-navigation/native';
-import { NavigationContainer } from '@react-navigation/native';
+import { NavigationContainer, DefaultTheme } from '@react-navigation/native';
 import { navigationRef } from './rootNavigation';
+import { withTheme } from 'styled-components';
+import { ThemeProps } from '@src/theme/types';
 import { RootStackScreen } from './Root';
+import { appTheme } from '@src/theme';
 
-// import { ThemeProps } from '../store/modules/theme/types';
-// import { withTheme } from 'styled-components';
+type Props = {
+  readonly theme: ThemeProps;
+};
 
-// type Props = {
-//   readonly theme: ThemeProps;
-// };
-
-// const Routes = ({ theme }: Props) => {
-const Routes = () => {
-  // const MyTheme = {
-  //   ...DefaultTheme,
-  //   colors: {
-  //     ...DefaultTheme.colors,
-  //     background: theme.PRIMARY_COLOR,
-  //     primary: theme.PRIMARY_COLOR,
-  //     card: theme.PRIMARY_COLOR,
-  //     border: theme.PRIMARY_COLOR,
-  //   },
-  // };
+const Routes = ({ theme }: Props) => {
+  const NavigationTheme = {
+    ...DefaultTheme,
+    ...theme,
+    ...appTheme,
+  };
 
   return (
-    // <NavigationContainer theme={MyTheme} ref={navigationRef}>
-    <NavigationContainer ref={navigationRef}>
+    <NavigationContainer ref={navigationRef} theme={NavigationTheme}>
       <RootStackScreen />
     </NavigationContainer>
   );
 };
 
-export default Routes;
-// export default withTheme(Routes);
+export default withTheme(Routes);

@@ -1,32 +1,30 @@
-/* eslint-disable react-native/no-inline-styles */
 import React, { useEffect } from 'react';
-import { ActivityIndicator, Text, View } from 'react-native';
-import { Logo } from '@assets/icons';
+import { useDispatch, useSelector } from 'react-redux';
+import { AppDispatch, RootState } from '@src/store';
 import { getProductsApi } from '@src/store/modules/inventory/actions';
-import { useDispatch } from 'react-redux';
-import { AppDispatch } from '@src/store';
+import { ActivityIndicator } from 'react-native';
+import { Text } from '@src/components';
+import { MainWrapper, LogoWrapper } from './styles';
+import { Logo } from '@assets/icons';
 
 const Loading = () => {
   const dispatch = useDispatch<AppDispatch>();
+  const { isLogged } = useSelector((state: RootState) => state?.user);
 
   useEffect(() => {
-    dispatch(getProductsApi());
+    if (!isLogged) {
+      dispatch(getProductsApi());
+    }
   }, []);
 
   return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: 'space-around',
-        alignItems: 'center',
-        backgroundColor: 'white',
-      }}>
-      <View style={{ alignItems: 'center' }}>
+    <MainWrapper>
+      <LogoWrapper>
         <Logo height={250} />
-        <Text style={{ color: 'gray' }}>a Portfolio Proyect</Text>
-      </View>
+        <Text>a Portfolio Proyect</Text>
+      </LogoWrapper>
       <ActivityIndicator size={50} />
-    </View>
+    </MainWrapper>
   );
 };
 

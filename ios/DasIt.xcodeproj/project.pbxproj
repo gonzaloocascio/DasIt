@@ -8,18 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* DasItTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* DasItTests.m */; };
-		11C17E0D56FC422C80C3764C /* Quicksand-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38E8BD9E4A404192B480FA53 /* Quicksand-Bold.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		281495E7F4384FAD906BE31B /* Quicksand-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8652B164978441C2A9B1D4A5 /* Quicksand-Light.ttf */; };
-		28838635903136F35719B2BD /* libPods-DasIt-DasItTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6F431DEC4D015BC77CABB4D /* libPods-DasIt-DasItTests.a */; };
-		39A3D802D2A44E29A9CE24BD /* Quicksand-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DDB1521B94CA4F4E94A9041F /* Quicksand-SemiBold.ttf */; };
+		21EC270C06F6CAA67D309F39 /* libPods-DasIt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D878E192EFF0F1CC59D17F40 /* libPods-DasIt.a */; };
+		2ECC3F1F5485464AB8CA9F25 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F5F371116C9D4C8BAB022927 /* Roboto-LightItalic.ttf */; };
+		3CC9646AC83949EE81F8A01E /* FrankRuhlLibre-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 099942C4451C410286E8633B /* FrankRuhlLibre-VariableFont_wght.ttf */; };
+		639F3598022E4C448A0B28EA /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF0DC1D1A93F4B4196D2F5DB /* Roboto-BoldItalic.ttf */; };
+		6446FD4C389E450EB3DB4FE7 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E625066CD73441CDB41EFE99 /* Roboto-ThinItalic.ttf */; };
+		6B01F0E60711425CBE1AF632 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF8F5B56D4043BA8852F310 /* Roboto-Light.ttf */; };
+		7B588F713E9C431F869E50EA /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88CFAEB9BCF74D4D950EA6C2 /* Roboto-BlackItalic.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		8538B186EE81425C9334563C /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1363FB0CEED48E69DF2F76F /* Raleway-Regular.ttf */; };
-		A2F80FC9BD5946398800BB0B /* Quicksand-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 224B0F0A3D794A3EA36A670C /* Quicksand-Medium.ttf */; };
-		BF5CAC8F0EE49F45BBA68570 /* libPods-DasIt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E25E51CE3FF719DABE21A21 /* libPods-DasIt.a */; };
-		CB4ACA0967F64BFB8CB51A1C /* Quicksand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3BE13FB5229F4028B5D42AD0 /* Quicksand-Regular.ttf */; };
+		8B9A9FC40DED4B6E8F6583D1 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EBFDF054E0EA4F1482B71225 /* Roboto-Thin.ttf */; };
+		BC141BE351724E09A0470D9C /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E134E45278A94FA288F749C1 /* Roboto-Regular.ttf */; };
+		CD151C51C4F74B3B9B88FEA3 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44569F7391394755BFF8249A /* Roboto-MediumItalic.ttf */; };
+		CF91E27FAEA1496E8D6A3DC9 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 439339C036AD476CB9F32238 /* Roboto-Italic.ttf */; };
+		CFAF0F4233A740D5B334E570 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE752B5AFDF44D978153253C /* Roboto-Medium.ttf */; };
+		E43A3CB5003D4F08BED136C8 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A07D4C8AD8F4E6FB46105E2 /* Roboto-Bold.ttf */; };
+		E5115E743DBC41409C0DE5A6 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F55C843FDB56475095FA5A84 /* Roboto-Black.ttf */; };
 		EA206EC12A5FA95A0083E2C8 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA206EB12A5FA95A0083E2C8 /* Fontisto.ttf */; };
 		EA206EC22A5FA95A0083E2C8 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA206EB22A5FA95A0083E2C8 /* Octicons.ttf */; };
 		EA206EC32A5FA95A0083E2C8 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA206EB32A5FA95A0083E2C8 /* Feather.ttf */; };
@@ -36,6 +42,7 @@
 		EA206ECE2A5FA95A0083E2C8 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA206EBE2A5FA95A0083E2C8 /* EvilIcons.ttf */; };
 		EA206ECF2A5FA95A0083E2C8 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA206EBF2A5FA95A0083E2C8 /* SimpleLineIcons.ttf */; };
 		EA206ED02A5FA95A0083E2C8 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA206EC02A5FA95A0083E2C8 /* MaterialIcons.ttf */; };
+		EEA3CB1F7CC662E86512D5FE /* libPods-DasIt-DasItTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4AD403383D433341FCD9D4 /* libPods-DasIt-DasItTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,25 +59,29 @@
 		00E356EE1AD99517003FC87E /* DasItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DasItTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* DasItTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DasItTests.m; sourceTree = "<group>"; };
+		099942C4451C410286E8633B /* FrankRuhlLibre-VariableFont_wght.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "FrankRuhlLibre-VariableFont_wght.ttf"; path = "../src/assets/fonts/FrankRuhlLibre-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		0A61CD8D8154120893782215 /* Pods-DasIt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DasIt.debug.xcconfig"; path = "Target Support Files/Pods-DasIt/Pods-DasIt.debug.xcconfig"; sourceTree = "<group>"; };
+		0DF8F5B56D4043BA8852F310 /* Roboto-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Light.ttf"; path = "../src/assets/fonts/Roboto-Light.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* DasIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DasIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = DasIt/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = DasIt/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = DasIt/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = DasIt/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = DasIt/main.m; sourceTree = "<group>"; };
-		1A5BD9886FC17339CA26710C /* Pods-DasIt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DasIt.release.xcconfig"; path = "Target Support Files/Pods-DasIt/Pods-DasIt.release.xcconfig"; sourceTree = "<group>"; };
-		224B0F0A3D794A3EA36A670C /* Quicksand-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Quicksand-Medium.ttf"; path = "../src/assets/fonts/Quicksand-Medium.ttf"; sourceTree = "<group>"; };
-		38E8BD9E4A404192B480FA53 /* Quicksand-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Quicksand-Bold.ttf"; path = "../src/assets/fonts/Quicksand-Bold.ttf"; sourceTree = "<group>"; };
-		3BE13FB5229F4028B5D42AD0 /* Quicksand-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Quicksand-Regular.ttf"; path = "../src/assets/fonts/Quicksand-Regular.ttf"; sourceTree = "<group>"; };
-		59416C6B64F57B4FEB82C51B /* Pods-DasIt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DasIt.debug.xcconfig"; path = "Target Support Files/Pods-DasIt/Pods-DasIt.debug.xcconfig"; sourceTree = "<group>"; };
-		6E25E51CE3FF719DABE21A21 /* libPods-DasIt.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DasIt.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A7F24BFD2E9AC84148CD8B3 /* Pods-DasIt-DasItTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DasIt-DasItTests.release.xcconfig"; path = "Target Support Files/Pods-DasIt-DasItTests/Pods-DasIt-DasItTests.release.xcconfig"; sourceTree = "<group>"; };
+		439339C036AD476CB9F32238 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Italic.ttf"; path = "../src/assets/fonts/Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		44569F7391394755BFF8249A /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-MediumItalic.ttf"; path = "../src/assets/fonts/Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		4557316629F0E4336882174E /* Pods-DasIt-DasItTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DasIt-DasItTests.release.xcconfig"; path = "Target Support Files/Pods-DasIt-DasItTests/Pods-DasIt-DasItTests.release.xcconfig"; sourceTree = "<group>"; };
+		5A21EB79224D271456BA7B87 /* Pods-DasIt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DasIt.release.xcconfig"; path = "Target Support Files/Pods-DasIt/Pods-DasIt.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = DasIt/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8652B164978441C2A9B1D4A5 /* Quicksand-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Quicksand-Light.ttf"; path = "../src/assets/fonts/Quicksand-Light.ttf"; sourceTree = "<group>"; };
-		96589989C53E76E2B65E9E16 /* Pods-DasIt-DasItTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DasIt-DasItTests.debug.xcconfig"; path = "Target Support Files/Pods-DasIt-DasItTests/Pods-DasIt-DasItTests.debug.xcconfig"; sourceTree = "<group>"; };
-		C1363FB0CEED48E69DF2F76F /* Raleway-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Regular.ttf"; path = "../src/assets/fonts/Raleway-Regular.ttf"; sourceTree = "<group>"; };
-		C6F431DEC4D015BC77CABB4D /* libPods-DasIt-DasItTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DasIt-DasItTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DDB1521B94CA4F4E94A9041F /* Quicksand-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Quicksand-SemiBold.ttf"; path = "../src/assets/fonts/Quicksand-SemiBold.ttf"; sourceTree = "<group>"; };
+		88CFAEB9BCF74D4D950EA6C2 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BlackItalic.ttf"; path = "../src/assets/fonts/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		8F7D10D7C0327E3F02C0CE37 /* Pods-DasIt-DasItTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DasIt-DasItTests.debug.xcconfig"; path = "Target Support Files/Pods-DasIt-DasItTests/Pods-DasIt-DasItTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A07D4C8AD8F4E6FB46105E2 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Bold.ttf"; path = "../src/assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		AE752B5AFDF44D978153253C /* Roboto-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Medium.ttf"; path = "../src/assets/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		CD4AD403383D433341FCD9D4 /* libPods-DasIt-DasItTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DasIt-DasItTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF0DC1D1A93F4B4196D2F5DB /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BoldItalic.ttf"; path = "../src/assets/fonts/Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		D878E192EFF0F1CC59D17F40 /* libPods-DasIt.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DasIt.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E134E45278A94FA288F749C1 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Regular.ttf"; path = "../src/assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		E625066CD73441CDB41EFE99 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-ThinItalic.ttf"; path = "../src/assets/fonts/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
 		EA206EB12A5FA95A0083E2C8 /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fontisto.ttf; sourceTree = "<group>"; };
 		EA206EB22A5FA95A0083E2C8 /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Octicons.ttf; sourceTree = "<group>"; };
 		EA206EB32A5FA95A0083E2C8 /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Feather.ttf; sourceTree = "<group>"; };
@@ -87,7 +98,10 @@
 		EA206EBE2A5FA95A0083E2C8 /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EvilIcons.ttf; sourceTree = "<group>"; };
 		EA206EBF2A5FA95A0083E2C8 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SimpleLineIcons.ttf; sourceTree = "<group>"; };
 		EA206EC02A5FA95A0083E2C8 /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialIcons.ttf; sourceTree = "<group>"; };
+		EBFDF054E0EA4F1482B71225 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Thin.ttf"; path = "../src/assets/fonts/Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F55C843FDB56475095FA5A84 /* Roboto-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Black.ttf"; path = "../src/assets/fonts/Roboto-Black.ttf"; sourceTree = "<group>"; };
+		F5F371116C9D4C8BAB022927 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-LightItalic.ttf"; path = "../src/assets/fonts/Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28838635903136F35719B2BD /* libPods-DasIt-DasItTests.a in Frameworks */,
+				EEA3CB1F7CC662E86512D5FE /* libPods-DasIt-DasItTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,7 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF5CAC8F0EE49F45BBA68570 /* libPods-DasIt.a in Frameworks */,
+				21EC270C06F6CAA67D309F39 /* libPods-DasIt.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,8 +159,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				6E25E51CE3FF719DABE21A21 /* libPods-DasIt.a */,
-				C6F431DEC4D015BC77CABB4D /* libPods-DasIt-DasItTests.a */,
+				D878E192EFF0F1CC59D17F40 /* libPods-DasIt.a */,
+				CD4AD403383D433341FCD9D4 /* libPods-DasIt-DasItTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -186,12 +200,19 @@
 		C91043D1CDCA4044AB6422DE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				38E8BD9E4A404192B480FA53 /* Quicksand-Bold.ttf */,
-				8652B164978441C2A9B1D4A5 /* Quicksand-Light.ttf */,
-				224B0F0A3D794A3EA36A670C /* Quicksand-Medium.ttf */,
-				3BE13FB5229F4028B5D42AD0 /* Quicksand-Regular.ttf */,
-				DDB1521B94CA4F4E94A9041F /* Quicksand-SemiBold.ttf */,
-				C1363FB0CEED48E69DF2F76F /* Raleway-Regular.ttf */,
+				099942C4451C410286E8633B /* FrankRuhlLibre-VariableFont_wght.ttf */,
+				F55C843FDB56475095FA5A84 /* Roboto-Black.ttf */,
+				88CFAEB9BCF74D4D950EA6C2 /* Roboto-BlackItalic.ttf */,
+				9A07D4C8AD8F4E6FB46105E2 /* Roboto-Bold.ttf */,
+				CF0DC1D1A93F4B4196D2F5DB /* Roboto-BoldItalic.ttf */,
+				439339C036AD476CB9F32238 /* Roboto-Italic.ttf */,
+				0DF8F5B56D4043BA8852F310 /* Roboto-Light.ttf */,
+				F5F371116C9D4C8BAB022927 /* Roboto-LightItalic.ttf */,
+				AE752B5AFDF44D978153253C /* Roboto-Medium.ttf */,
+				44569F7391394755BFF8249A /* Roboto-MediumItalic.ttf */,
+				E134E45278A94FA288F749C1 /* Roboto-Regular.ttf */,
+				EBFDF054E0EA4F1482B71225 /* Roboto-Thin.ttf */,
+				E625066CD73441CDB41EFE99 /* Roboto-ThinItalic.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -223,10 +244,10 @@
 		FBAD6CA1AE4EAF418BDD0303 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				59416C6B64F57B4FEB82C51B /* Pods-DasIt.debug.xcconfig */,
-				1A5BD9886FC17339CA26710C /* Pods-DasIt.release.xcconfig */,
-				96589989C53E76E2B65E9E16 /* Pods-DasIt-DasItTests.debug.xcconfig */,
-				7A7F24BFD2E9AC84148CD8B3 /* Pods-DasIt-DasItTests.release.xcconfig */,
+				0A61CD8D8154120893782215 /* Pods-DasIt.debug.xcconfig */,
+				5A21EB79224D271456BA7B87 /* Pods-DasIt.release.xcconfig */,
+				8F7D10D7C0327E3F02C0CE37 /* Pods-DasIt-DasItTests.debug.xcconfig */,
+				4557316629F0E4336882174E /* Pods-DasIt-DasItTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -238,12 +259,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "DasItTests" */;
 			buildPhases = (
-				EFD28F2ECE14A4CFEF331438 /* [CP] Check Pods Manifest.lock */,
+				A4C1E48CF8927F0947F0C53C /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				555768F61D209A01C3227D84 /* [CP] Embed Pods Frameworks */,
-				0540F2A5A693FEC794375010 /* [CP] Copy Pods Resources */,
+				71C87252779EB32267EF3A51 /* [CP] Embed Pods Frameworks */,
+				C6B101F5FC465B4E6C67368D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,14 +280,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "DasIt" */;
 			buildPhases = (
-				63AE00F635D73D2CA6534D85 /* [CP] Check Pods Manifest.lock */,
+				447B10B4433FEBF0F3C19BD2 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				38C2CE0B5A367CA20F78A65E /* [CP] Embed Pods Frameworks */,
-				DFD7628703BBC91713C32C36 /* [CP] Copy Pods Resources */,
+				422104AF9235BD4F4E220A5E /* [CP] Embed Pods Frameworks */,
+				2ECD076E99B5CA9FBBB1CDC8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -336,19 +357,26 @@
 				EA206ED02A5FA95A0083E2C8 /* MaterialIcons.ttf in Resources */,
 				EA206EC52A5FA95A0083E2C8 /* FontAwesome5_Brands.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				11C17E0D56FC422C80C3764C /* Quicksand-Bold.ttf in Resources */,
 				EA206ECB2A5FA95A0083E2C8 /* FontAwesome5_Regular.ttf in Resources */,
 				EA206ECC2A5FA95A0083E2C8 /* FontAwesome.ttf in Resources */,
 				EA206EC62A5FA95A0083E2C8 /* MaterialCommunityIcons.ttf in Resources */,
 				EA206ECD2A5FA95A0083E2C8 /* Zocial.ttf in Resources */,
 				EA206EC72A5FA95A0083E2C8 /* AntDesign.ttf in Resources */,
-				281495E7F4384FAD906BE31B /* Quicksand-Light.ttf in Resources */,
-				A2F80FC9BD5946398800BB0B /* Quicksand-Medium.ttf in Resources */,
-				CB4ACA0967F64BFB8CB51A1C /* Quicksand-Regular.ttf in Resources */,
 				EA206ECA2A5FA95A0083E2C8 /* FontAwesome5_Solid.ttf in Resources */,
 				EA206ECF2A5FA95A0083E2C8 /* SimpleLineIcons.ttf in Resources */,
-				39A3D802D2A44E29A9CE24BD /* Quicksand-SemiBold.ttf in Resources */,
-				8538B186EE81425C9334563C /* Raleway-Regular.ttf in Resources */,
+				3CC9646AC83949EE81F8A01E /* FrankRuhlLibre-VariableFont_wght.ttf in Resources */,
+				E5115E743DBC41409C0DE5A6 /* Roboto-Black.ttf in Resources */,
+				7B588F713E9C431F869E50EA /* Roboto-BlackItalic.ttf in Resources */,
+				E43A3CB5003D4F08BED136C8 /* Roboto-Bold.ttf in Resources */,
+				639F3598022E4C448A0B28EA /* Roboto-BoldItalic.ttf in Resources */,
+				CF91E27FAEA1496E8D6A3DC9 /* Roboto-Italic.ttf in Resources */,
+				6B01F0E60711425CBE1AF632 /* Roboto-Light.ttf in Resources */,
+				2ECC3F1F5485464AB8CA9F25 /* Roboto-LightItalic.ttf in Resources */,
+				CFAF0F4233A740D5B334E570 /* Roboto-Medium.ttf in Resources */,
+				CD151C51C4F74B3B9B88FEA3 /* Roboto-MediumItalic.ttf in Resources */,
+				BC141BE351724E09A0470D9C /* Roboto-Regular.ttf in Resources */,
+				8B9A9FC40DED4B6E8F6583D1 /* Roboto-Thin.ttf in Resources */,
+				6446FD4C389E450EB3DB4FE7 /* Roboto-ThinItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,24 +397,24 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		0540F2A5A693FEC794375010 /* [CP] Copy Pods Resources */ = {
+		2ECD076E99B5CA9FBBB1CDC8 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DasIt-DasItTests/Pods-DasIt-DasItTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DasIt/Pods-DasIt-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DasIt-DasItTests/Pods-DasIt-DasItTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DasIt/Pods-DasIt-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DasIt-DasItTests/Pods-DasIt-DasItTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DasIt/Pods-DasIt-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		38C2CE0B5A367CA20F78A65E /* [CP] Embed Pods Frameworks */ = {
+		422104AF9235BD4F4E220A5E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -403,24 +431,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DasIt/Pods-DasIt-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		555768F61D209A01C3227D84 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DasIt-DasItTests/Pods-DasIt-DasItTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DasIt-DasItTests/Pods-DasIt-DasItTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DasIt-DasItTests/Pods-DasIt-DasItTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		63AE00F635D73D2CA6534D85 /* [CP] Check Pods Manifest.lock */ = {
+		447B10B4433FEBF0F3C19BD2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -442,24 +453,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DFD7628703BBC91713C32C36 /* [CP] Copy Pods Resources */ = {
+		71C87252779EB32267EF3A51 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DasIt/Pods-DasIt-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DasIt-DasItTests/Pods-DasIt-DasItTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DasIt/Pods-DasIt-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DasIt-DasItTests/Pods-DasIt-DasItTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DasIt/Pods-DasIt-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DasIt-DasItTests/Pods-DasIt-DasItTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EFD28F2ECE14A4CFEF331438 /* [CP] Check Pods Manifest.lock */ = {
+		A4C1E48CF8927F0947F0C53C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -479,6 +490,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6B101F5FC465B4E6C67368D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DasIt-DasItTests/Pods-DasIt-DasItTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DasIt-DasItTests/Pods-DasIt-DasItTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DasIt-DasItTests/Pods-DasIt-DasItTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -533,7 +561,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96589989C53E76E2B65E9E16 /* Pods-DasIt-DasItTests.debug.xcconfig */;
+			baseConfigurationReference = 8F7D10D7C0327E3F02C0CE37 /* Pods-DasIt-DasItTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -560,7 +588,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A7F24BFD2E9AC84148CD8B3 /* Pods-DasIt-DasItTests.release.xcconfig */;
+			baseConfigurationReference = 4557316629F0E4336882174E /* Pods-DasIt-DasItTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -584,7 +612,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 59416C6B64F57B4FEB82C51B /* Pods-DasIt.debug.xcconfig */;
+			baseConfigurationReference = 0A61CD8D8154120893782215 /* Pods-DasIt.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -610,7 +638,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A5BD9886FC17339CA26710C /* Pods-DasIt.release.xcconfig */;
+			baseConfigurationReference = 5A21EB79224D271456BA7B87 /* Pods-DasIt.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
