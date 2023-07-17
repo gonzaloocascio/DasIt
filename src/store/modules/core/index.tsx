@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { coreState } from './types';
+import { CoreState } from './types';
 
-const initialState: coreState = {
+const initialState: CoreState = {
   splash: true,
 };
 

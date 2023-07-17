@@ -1,4 +1,10 @@
-export interface Product {
+export interface InventoryState {
+  productList: ProductType[];
+  categoryList: string[];
+  watchList: WatchListType[];
+  // shoppings: ShoppingstType[];
+}
+export interface ProductType {
   id: number;
   title: string;
   description: string;
@@ -12,6 +18,18 @@ export interface Product {
   images: string[];
 }
 
-export interface inventoryState {
-  products: Product[];
+export interface WatchListType {
+  productId: number;
+  purchased: boolean;
 }
+export interface SetWatchListParams {
+  productId: number;
+}
+// export interface ShoppingstType {
+//   productId: number;
+//   date: string;
+// }
+// export interface SetShoppingParams {
+//   productId: number;
+//   date: string;
+// }

@@ -1,8 +1,22 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { userState } from './types';
+import { UserState } from './types';
 
-const initialState: userState = {
-  isLogged: false,
+export const initialState: UserState = {
+  idUser: 0,
+  Rol: '',
+  Profile: {
+    Usuario: '',
+    Nombre: '',
+    Apellido: '',
+    Fecha: '',
+    Tel: '',
+    Email: '',
+    Direccion: '',
+    Localidad: '',
+    Estado: '',
+  },
+  isLogged: undefined,
+  requestErrorMsg: { title: '', text: '' },
 };
 
 const userReducer = createSlice({

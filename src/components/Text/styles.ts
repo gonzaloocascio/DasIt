@@ -1,18 +1,22 @@
 import styled from 'styled-components/native';
 import { ThemeState } from '@src/theme/types';
 import { TextProps } from './props';
+import FontAwesome5Icon from 'react-native-vector-icons/FontAwesome5';
 
 export const Text = styled.Text.attrs({
   activeOpacity: 0.6,
 })`
   font-family: ${(props: ThemeState) => props.theme.PRIMARY_FONT_FAMILY};
-  color: ${(props: ThemeState) => props.theme.PRIMARY_TEXT_COLOR};
+  color: ${(props: TextProps & ThemeState) =>
+    props.black ? 'black' : props.theme.PRIMARY_TEXT_COLOR};
+
   ${(props: TextProps & ThemeState) => {
     return (
       props.h1 &&
       `
       font-family: ${props.theme.PRIMARY_FONT_FAMILY_BOLD};
-      font-size: 15px;
+      font-size: 20px;
+      padding: 10px 0px;
       `
     );
   }};
@@ -23,14 +27,14 @@ export const Text = styled.Text.attrs({
       `
       font-family: ${props.theme.PRIMARY_FONT_FAMILY_MEDIUM};
       font-size: 15px;
-      margin: 10px;
+      margin: 10px 0px;
 
       `
     );
   }};
   ${(props: TextProps & ThemeState) => {
     return (
-      props.h2 &&
+      props.h3 &&
       `
       font-family: ${props.theme.PRIMARY_FONT_FAMILY_MEDIUM};
       font-size: 12px;
@@ -50,10 +54,19 @@ export const Text = styled.Text.attrs({
   }};
   ${(props: TextProps & ThemeState) => {
     return (
+      props.small &&
+      `
+        font-size: 11px;
+        color: ${props.theme.PRIMARY_TEXT_COLOR_OPAQUE};
+
+      `
+    );
+  }};
+  ${(props: TextProps & ThemeState) => {
+    return (
       props.medium &&
       `
         font-size: 18px;
-
       `
     );
   }};
@@ -61,11 +74,9 @@ export const Text = styled.Text.attrs({
     return (
       props.big &&
       `
-        font-size: 24px;
+        font-size: 36px;
         margin-top: 5px;
         margin-bottom: 10px;
-        margin-horizontal: 20px;
-
       `
     );
   }};
@@ -114,4 +125,25 @@ export const Text = styled.Text.attrs({
       `
     );
   }};
+  ${(props: TextProps & ThemeState) => {
+    return (
+      props.color &&
+      `
+      color: ${props.color};
+      `
+    );
+  }};
+`;
+
+export const TextWrapper = styled.View`
+  flex-direction: row;
+  align-content: flex-start;
+  align-items: center;
+`;
+
+export const Icon = styled(FontAwesome5Icon).attrs({
+  color: 'grey',
+  size: 12,
+})`
+  margin-right: 4px;
 `;

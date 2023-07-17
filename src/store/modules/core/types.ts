@@ -1,3 +1,3 @@
-export interface coreState {
+export interface CoreState {
   splash: boolean;
 }

@@ -1,20 +1,17 @@
 import React, { useEffect } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import { AppDispatch, RootState } from '@src/store';
-import { getProductsApi } from '@src/store/modules/inventory/actions';
+import { useDispatch } from 'react-redux';
+import { AppDispatch } from '@store/index';
+import { getProductsApi } from '@store/modules/inventory/actions';
 import { ActivityIndicator } from 'react-native';
-import { Text } from '@src/components';
+import { Text } from '@components/index';
 import { MainWrapper, LogoWrapper } from './styles';
 import { Logo } from '@assets/icons';
 
 const Loading = () => {
   const dispatch = useDispatch<AppDispatch>();
-  const { isLogged } = useSelector((state: RootState) => state?.user);
 
   useEffect(() => {
-    if (!isLogged) {
-      dispatch(getProductsApi());
-    }
+    dispatch(getProductsApi());
   }, []);
 
   return (
