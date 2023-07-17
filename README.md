@@ -24,15 +24,31 @@ Para ejecutar cualquiera de las aplicaciones presentes en este repositorio, sigu
 
 git clone https://github.com/gonzaloocascio/DasIt.git
 
-2. Navega hasta la carpeta del proyecto de la aplicación que deseas probar.
+2. Este proyecto fue creado con las siguientes herramientas y versiones de aplicacion, asegurate de tener tu entorno correctamente configurado y compatible con las mismas:
 
-3. Sigue las instrucciones de instalación específicas proporcionadas en la documentación del proyecto de la aplicación. Esto puede incluir la instalación de dependencias, configuración de variables de entorno y otros pasos necesarios para la ejecución exitosa de la aplicación.
+```
+  SO: MacOs Monterry chip M1
+  xCode: Version 13.4.1
+  Androtid Studio:  Dolphin | 2021.3.1
+  React Native: 0.66.4
+  React: 17.0.2
+```
 
-4. Una vez completados los pasos anteriores, puedes ejecutar la aplicación en tu dispositivo o emulador utilizando el siguiente comando:
+4. Sigue las instrucciones de instalación específicas proporcionadas en la documentación del proyecto de la aplicación. Esto puede incluir la instalación de dependencias, configuración de variables de entorno y otros pasos necesarios para la ejecución exitosa de la aplicación.
 
+5. Una vez completados los pasos anteriores, puedes ejecutar la aplicación en tu dispositivo o emulador utilizando el siguiente comando:
+```
 react-native run-android # Para dispositivos Android
 react-native run-ios # Para dispositivos iOS
-
+```
+## Screenshots
+Explora la aplicacion portfolio antes de correrla localmente, estas son algunas de las pantallas que muestran las carateristicas principales de la app.
+<div id="carousel" class="carousel">
+  <img src="https://tunegocioweb.com.ar/App/assets/images/screenshoot-01.png" alt="Imagen 1" width="150">
+  <img src="https://tunegocioweb.com.ar/App/assets/images/screenshoot-02.png" alt="Imagen 2" width="150">
+  <img src="https://tunegocioweb.com.ar/App/assets/images/screenshoot-03.png" alt="Imagen 3" width="150">
+  <img src="https://tunegocioweb.com.ar/App/assets/images/screenshoot-04.png" alt="Imagen 4" width="150">
+</div>
 
 ## Contribución
 
